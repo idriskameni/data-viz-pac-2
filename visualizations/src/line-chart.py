@@ -17,4 +17,4 @@ ax.set_ylabel('Habitants')
 
 ax.text(0.5, -0.25, 'Font: Dades històriques de població \ndels municipis de Catalunya (Dades obertes Catalunya)', ha='center', va='bottom', transform=plt.gca().transAxes)
 
-plt.savefig('../images/line-chart.jpg', dpi=300, bbox_inches='tight')
+plt.savefig('../../src/images/line-chart.jpg', dpi=300, bbox_inches='tight')
