@@ -20,5 +20,7 @@ ax.set_title('Correlation Matrix del joc de dades \'Iris\'')
 plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor")
 plt.yticks(rotation=0)
 
+ax.text(0.5, -0.25, 'Font:UCI Machine Learning Repository [http://archive.ics.uci.edu/ml].\nIrvine, CA: University of California, School of Information and Computer Science.', ha='center', va='bottom', transform=plt.gca().transAxes)
+
 fig.set_size_inches(8, 4)
 plt.savefig('../images/correlation-matrix.jpg', dpi=300, bbox_inches='tight')
