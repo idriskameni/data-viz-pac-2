@@ -7,7 +7,6 @@ df.index = pd.to_datetime(df.index)
 
 df_april = df.loc['2023-04']
 
-print(df_april)
 fig, ax = plt.subplots()
 
 mpf.plot(df_april, type='candle', style='charles', ax=ax)
