@@ -9,6 +9,11 @@ img {
     margin: 0 auto;
 }
 
+.header {
+  width: 100%; 
+  text-align: center;
+}
+
 .buttons {
   width: 100%; 
   text-align: center;
