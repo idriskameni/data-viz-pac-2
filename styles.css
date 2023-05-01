@@ -9,9 +9,11 @@ img {
     margin: 0 auto;
 }
 
-.header {
+.headers {
   width: 100%; 
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .buttons {
